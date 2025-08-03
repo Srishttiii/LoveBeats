@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LoveBeats 💖</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <h1>LoveBeats 💖</h1>
+    <p class="tagline">Let your heart pick the mood...</p>
+
+    <div class="mood-buttons">
+      <button onclick="setMood('crush')">Crush</button>
+      <button onclick="setMood('inlove')">In Love</button>
+      <button onclick="setMood('heartbreak')">Heartbreak</button>
+      <button onclick="setMood('obsession')">Obsession</button>
+    </div>
+
+    <div class="quote" id="quoteBox">Choose your mood 💌</div>
+
+    <audio id="player" controls autoplay hidden></audio>
+  </div>
+
+  <div class="signature">~ Srishti</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
